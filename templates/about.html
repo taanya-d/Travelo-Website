@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>About Us | Your Travel Agency</title>
+    <style>
+      /* CSS styles */
+      main .container {
+        padding-bottom: 3rem;
+      }
+      p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+      h2 {
+        margin-bottom: 1rem;
+        font-size: 3rem;
+      }
+      ul {
+        list-style: none;
+      }
+      ul li {
+        margin-bottom: 0.5rem;
+        color: var(--paragraph);
+      }
+      ul li:last-child {
+        margin-bottom: 2rem;
+      }
+      .team {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 3rem;
+      }
+      .team .team-member {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-right: 2rem;
+      }
+      .team .team-member img {
+        width: 10rem;
+        height: 10rem;
+        object-position: center;
+        border-radius: 50%;
+        margin-right: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="nav">
+            <img src="../images/Travelo Logo.jpg" alt="Travelo Logo" />
+            <ul>
+              <li>
+                <a href="../index.html" class="link">Home</a>
+                <a href="#" class="link">About Us</a>
+              </li>
+              <li>
+                <a href="./destinations.html" class="link">Destinations</a>
+                <a href="./services.html" class="link">Features</a>
+              </li>
+              <li>
+                <a href="./prices.html" class="link">Pricing</a>
+                <a href="./reviews.html" class="link">Reviews</a>
+              </li>
+              <li>
+                <a href="./terms.html" class="link"
+                  >Terms & Policy</a
+                >
+              </li>
+            </ul>
+            <div class="cta first">
+              <a class="primary-btn small">Log In</a>
+            </div>
+            <i
+              class="fa-solid fa-bars"
+              style="color: #000000"
+              id="nav-icon"
+              onclick="toggleSidebar()"
+            ></i>
+            <div id="sidebar" class="sidebar">
+              <ul>
+                <li>
+                  <a href="../index.html" class="link">Home</a>
+                  <a href="#" class="link">About Us</a>
+                </li>
+                <li>
+                  <a href="./destinations.html" class="link">Destinations</a>
+                  <a href="./services.html" class="link">Features</a>
+                </li>
+                <li>
+                  <a href="./prices.html" class="link">Pricing</a>
+                  <a href="./reviews.html" class="link">Reviews</a>
+                </li>
+              </ul>
+              <div class="cta second">
+                <a class="primary-btn small">Log In</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="fade-in">
+      <div class="container">
+        <h1>About Us</h1>
+        <h2>
+          <i class="fa-solid fa-location-dot" style="color: #f5c94f"></i>
+          Location
+        </h2>
+        <p>123 Travel Street, City, Country</p>
+        <br />
+        <h2>
+          <i class="fa-solid fa-book" style="color: #d58170"></i> Description
+        </h2>
+        <p>
+          Welcome to Your Travel Agency, where adventure begins! We are a team
+          of passionate travel enthusiasts dedicated to providing you with
+          unforgettable travel experiences. Whether you're seeking relaxation on
+          a tropical beach, exploring ancient ruins, or embarking on thrilling
+          adventures, we've got you covered.
+        </p>
+        <br />
+
+        <h2>
+          <i class="fa-solid fa-bell-concierge" style="color: #d411a0"></i> Our
+          Services
+        </h2>
+        <p style="margin-bottom: 0">
+          At Your Travel Agency, we offer a wide range of services to cater to
+          your travel needs:
+        </p>
+        <br />
+        <ul>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Flight
+            bookings
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Hotel
+            reservations
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Customized
+            tour packages
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Car rentals
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Cruise
+            bookings
+          </li>
+        </ul>
+        <br />
+        <h2>
+          <i class="fa-solid fa-lightbulb" style="color: #6a96e2"></i> Why
+          Choose Us?
+        </h2>
+        <p>
+          Here are a few reasons why you should choose us for your next
+          adventure:
+        </p>
+        <ul>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Experienced
+            and knowledgeable staff
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i>
+            Personalized service tailored to your preferences
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Extensive
+            network of trusted partners and suppliers
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Competitive
+            prices and special offers
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> 24/7
+            customer support
+          </li>
+        </ul>
+        <br />
+        <h2>
+          <i class="fa-solid fa-people-group" style="color: #e6707c"></i> Our
+          Team
+        </h2>
+        <p>
+          We have a team of dedicated professionals who are passionate about
+          travel and are committed to making your journey memorable. Get to know
+          our team:
+        </p>
+        <div class="team">
+          <div class="team-member">
+            <img
+              src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+              alt="Team Member 1"
+            />
+            <div>
+              <h3 style="margin-bottom: 0">John Doe</h3>
+              <p>Travel Consultant</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <img
+              src="https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=715&q=80"
+              alt="Team Member 1"
+              style="object-position: top"
+            />
+            <div>
+              <h3 style="margin-bottom: 0">Jane Smith</h3>
+              <p>Tour Guide</p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <h2>
+          <i class="fa-solid fa-address-book" style="color: #7be8ea"></i>
+          Contact Us
+        </h2>
+        <p>
+          Have a question or ready to start planning your next adventure?
+          Contact us today:
+        </p>
+        <ul>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Email:
+            info@yourtravelagency.com
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Phone: +1
+            123-456-7890
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Address:
+            123 Travel Street, City, Country
+          </li>
+        </ul>
+      </div>
+    </main>
+    <div class="wishlist" id="wishlist">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+    <div id="wishlist-container" class="wishlist-container">
+      <div class="wishlist-content" id="wishlist-content"></div>
+      <div>
+        <p style="margin-bottom: 1rem;" id="estimated">Total Estimated Price : <strong id="total-amount">0</strong></p>
+        <button id="buy"class="primary-btn">Checkout Now</button>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div>
+          <div class="socials">
+            <h3>Leading the way in adventure</h3>
+            <div>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook-f" style="color: #000000;"></i>
+              </a>
+              
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+              </a>
+              <a href="https://www.twitter.com/" target="_blank">
+                <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+              </a>
+              <a href="https://www.youtube.com/" target="_blank">
+                <i class="fa-brands fa-youtube" style="color: #000000;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="newsletter">
+            <h3>Join Our Newsletter</h3>
+            <input type="email" placeholder="Enter your e-mail" />
+            <img
+              src="../images/icons/cta-btn.png"
+              alt="Submit Icon"
+              onclick="showPopup()"
+            />
+            <div id="popup" class="popup"></div>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <div>
+            <img src="../images/Travelo Logo.jpg" alt="Travelo Logo" />
+            <p>
+              Travell plans are not really an instrument themselves but a
+              delivery mechanism or strategy for mostly others
+            </p>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <a href="/">123</a>
+            <a href="">info@travelo.com</a>
+            <a href="">support@travelo.com</a>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <a href="/">About Us</a>
+            <a href="">Features</a>
+            <a href="">Careers</a>
+          </div>
+          <div>
+            <h4>Resource</h4>
+            <a href="/">Press Info</a>
+            <a href="">Customers</a>
+            <a href="">Reviews</a>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <p>@2023 travelo | All Rights Reserved</p>
+          <div>
+            <p>We Accept Payment:</p>
+            <img src="../images/icons/logos_stripe.svg" alt="Stripe Logo" />
+            <img src="../images/icons/Paypal.svg" alt="Paypal Logo" />
+            <img src="../images/icons/Payonner 1.svg" alt="Payoneer Logo" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="../main.js"></script>
+</html>
