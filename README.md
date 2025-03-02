@@ -1,5 +1,5 @@
 # Travelo
-This is individual project called Roaming Routes project
+This is team project called Roaming Routes project.
 
 ## Some of the Features
 * search city
