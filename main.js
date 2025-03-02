@@ -1,4 +1,3 @@
-// let cart = JSON.parse(localStorage.getItem("wishlist")) || [];
 let users = JSON.parse(localStorage.getItem("users"));
 let userLogin = JSON.parse(localStorage.getItem("user-login"));
 let total = document.getElementById("total-amount");

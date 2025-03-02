@@ -6,7 +6,7 @@
     align-items: flex-start;
     justify-content: space-between;
 }
-
+/* //CSS changes */
 #services .container >div{
     width:50%;
 }

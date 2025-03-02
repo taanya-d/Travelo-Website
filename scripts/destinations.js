@@ -952,7 +952,7 @@ async function findImageUrl(query) {
   }
 }
 // {
-//   name: "Delhi",
+//   name: "",
 //   country: "India",
 //   population: 20000000,
 //   attractions: ["Red Fort", "Qutub Minar", "Lotus Temple"],
