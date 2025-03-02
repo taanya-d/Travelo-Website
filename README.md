@@ -1,6 +1,5 @@
 # Travelo
-This is individual project called Roaming Routes project made by Ayushmaan Rajput (fw27_017).
-[Travelo Website](https://stately-cactus-6c6a66.netlify.app/)
+This is an individual project called the Roaming Routes project.
 
 ## Some of the Features
 * search city
